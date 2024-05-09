@@ -1,0 +1,288 @@
+{
+    "os": "Linux-6.1.85-1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-05-09T16:05:38.868150",
+    "startedAt": "2024-05-09T16:05:38.333350",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--stage",
+        "sft",
+        "--do_train",
+        "--model_name_or_path",
+        "NousResearch/Llama-2-7b-hf",
+        "--dataset",
+        "parsed_train_06032024",
+        "--dataset_dir",
+        "../../datasets/estate",
+        "--template",
+        "default",
+        "--finetuning_type",
+        "lora",
+        "--lora_target",
+        "q_proj,v_proj",
+        "--output_dir",
+        "saves/LLaMA2-7B/lora/sft",
+        "--overwrite_cache",
+        "--overwrite_output_dir",
+        "--cutoff_len",
+        "8192",
+        "--preprocessing_num_workers",
+        "16",
+        "--per_device_train_batch_size",
+        "1",
+        "--gradient_accumulation_steps",
+        "2",
+        "--lr_scheduler_type",
+        "cosine",
+        "--logging_steps",
+        "10",
+        "--warmup_steps",
+        "20",
+        "--save_steps",
+        "1000",
+        "--learning_rate",
+        "5e-5",
+        "--num_train_epochs",
+        "3.0",
+        "--ddp_timeout",
+        "180000000",
+        "--plot_loss",
+        "--fp16",
+        "--report_to",
+        "wandb",
+        "--run_name",
+        "Llama2-7b-hf-parsed_train_06032024"
+    ],
+    "state": "running",
+    "program": "/home/dxleec/gysun/projs/LLaMA-Estate/src/train.py",
+    "codePathLocal": "src/train.py",
+    "codePath": "src/train.py",
+    "git": {
+        "remote": "https://github.com/GuangyanS/LLaMA-Estate.git",
+        "commit": "75aec4cf8e9089808a1731e2848b29191f26d51d"
+    },
+    "email": "george20020904@gmail.com",
+    "root": "/home/dxleec/gysun/projs/LLaMA-Estate",
+    "host": "skl-a-55.rc.rit.edu",
+    "username": "dxleec",
+    "executable": "/home/dxleec/anaconda3/envs/llama/bin/python3.10",
+    "cpu_count": 36,
+    "cpu_count_logical": 36,
+    "cpu_freq": {
+        "current": 3399.922833333334,
+        "min": 3700.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3399.73,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.066,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.932,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.276,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.699,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.78,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.874,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.022,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.004,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.001,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.0,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.999,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.001,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.679,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.574,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.909,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.738,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.133,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.002,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.002,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.995,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.0,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.39,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.776,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.825,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.163,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.946,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.841,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.852,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.717,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.999,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.792,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.285,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3399.939,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.037,
+            "min": 3700.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3400.066,
+            "min": 3700.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 31.984375,
+            "used": 7.3710174560546875
+        }
+    },
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        }
+    ],
+    "memory": {
+        "total": 376.01694107055664
+    }
+}
