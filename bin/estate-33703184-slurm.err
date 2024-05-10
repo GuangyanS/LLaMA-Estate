@@ -1,0 +1,100 @@
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:18:45,738 >> loading file tokenizer.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/tokenizer.json
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:18:45,738 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:18:45,739 >> loading file special_tokens_map.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/special_tokens_map.json
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:18:45,743 >> loading file tokenizer_config.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/tokenizer_config.json
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[WARNING|logging.py:314] 2024-05-10 13:18:45,985 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Converting format of dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   4%|▍         | 1000/26622 [00:00<00:02, 8662.36 examples/s]Converting format of dataset (num_proc=16): 100%|██████████| 26622/26622 [00:00<00:00, 89738.90 examples/s]
+Running tokenizer on dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   4%|▍         | 1000/26622 [00:00<00:05, 4957.89 examples/s]Converting format of dataset (num_proc=16):   4%|▍         | 1000/26622 [00:00<00:05, 4932.11 examples/s]Converting format of dataset (num_proc=16):  50%|█████     | 13320/26622 [00:00<00:00, 53860.40 examples/s]Converting format of dataset (num_proc=16):  43%|████▎     | 11328/26622 [00:00<00:00, 44300.95 examples/s]Converting format of dataset (num_proc=16): 100%|██████████| 26622/26622 [00:00<00:00, 81859.81 examples/s]Converting format of dataset (num_proc=16): 100%|██████████| 26622/26622 [00:00<00:00, 56180.70 examples/s]
+Converting format of dataset (num_proc=16): 100%|██████████| 26622/26622 [00:00<00:00, 54300.23 examples/s]
+multiprocess.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/multiprocess/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/utils/py_utils.py", line 623, in _write_generator_to_queue
+    for i, result in enumerate(func(**kwargs)):
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 3534, in _map_single
+    yield rank, True, Dataset.from_file(cache_file_name, info=info, split=shard.split)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 763, in from_file
+    table = ArrowReader.read_table(filename, in_memory=in_memory)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/arrow_reader.py", line 370, in read_table
+    return table_cls.from_file(filename)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/table.py", line 1018, in from_file
+    table = _memory_mapped_arrow_table_from_file(filename)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/table.py", line 64, in _memory_mapped_arrow_table_from_file
+    opened_stream = _memory_mapped_record_batch_reader_from_file(filename)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/table.py", line 49, in _memory_mapped_record_batch_reader_from_file
+    memory_mapped_stream = pa.memory_map(filename)
+  File "pyarrow/io.pxi", line 1053, in pyarrow.lib.memory_map
+  File "pyarrow/io.pxi", line 1000, in pyarrow.lib.MemoryMappedFile._open
+  File "pyarrow/error.pxi", line 154, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 91, in pyarrow.lib.check_status
+FileNotFoundError: [Errno 2] Failed to open local file '/ibex/user/wangc0g/.cache/huggingface/datasets/json/default-3d0afdb849d41af2/0.0.0/ab573428e7a11a7e23eebd41a2a71665ac3789ce311cbad7049572034a9bda05/cache-1790cf19dc53122b_00003_of_00016.arrow'. Detail: [errno 2] No such file or directory
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/train.py", line 16, in <module>
+    main()
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/train.py", line 6, in main
+    run_exp()
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/llmtuner/train/tuner.py", line 33, in run_exp
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/llmtuner/train/sft/workflow.py", line 33, in run_sft
+    dataset = get_dataset(model_args, data_args, training_args, stage="sft", **tokenizer_module)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/llmtuner/data/loader.py", line 148, in get_dataset
+    all_datasets.append(load_single_dataset(dataset_attr, model_args, data_args))
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/llmtuner/data/loader.py", line 114, in load_single_dataset
+    return align_dataset(dataset, dataset_attr, data_args)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/llmtuner/data/aligner.py", line 150, in align_dataset
+    return dataset.map(
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 593, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 558, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 3197, in map
+    for rank, done, content in iflatmap_unordered(
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/utils/py_utils.py", line 663, in iflatmap_unordered
+    [async_result.get(timeout=0.05) for async_result in async_results]
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/datasets/utils/py_utils.py", line 663, in <listcomp>
+    [async_result.get(timeout=0.05) for async_result in async_results]
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/multiprocess/pool.py", line 774, in get
+    raise self._value
+FileNotFoundError: [Errno 2] Failed to open local file '/ibex/user/wangc0g/.cache/huggingface/datasets/json/default-3d0afdb849d41af2/0.0.0/ab573428e7a11a7e23eebd41a2a71665ac3789ce311cbad7049572034a9bda05/cache-1790cf19dc53122b_00003_of_00016.arrow'. Detail: [errno 2] No such file or directory
+Running tokenizer on dataset (num_proc=16):   4%|▍         | 1000/26622 [00:05<02:21, 181.53 examples/s]Running tokenizer on dataset (num_proc=16):   8%|▊         | 2000/26622 [00:05<00:59, 410.73 examples/s]Running tokenizer on dataset (num_proc=16):  11%|█▏        | 3000/26622 [00:06<00:34, 684.26 examples/s]Running tokenizer on dataset (num_proc=16):  23%|██▎       | 6000/26622 [00:06<00:12, 1645.31 examples/s]Running tokenizer on dataset (num_proc=16):  30%|███       | 8000/26622 [00:06<00:07, 2340.17 examples/s]Running tokenizer on dataset (num_proc=16):  38%|███▊      | 10000/26622 [00:07<00:04, 3367.04 examples/s]Running tokenizer on dataset (num_proc=16):  45%|████▌     | 12000/26622 [00:07<00:03, 4671.16 examples/s]Running tokenizer on dataset (num_proc=16):  53%|█████▎    | 14000/26622 [00:07<00:02, 5623.08 examples/s][2024-05-10 13:18:55,809] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1697972 closing signal SIGTERM
+[2024-05-10 13:18:55,810] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1697973 closing signal SIGTERM
+[2024-05-10 13:18:56,052] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 2 (pid: 1697974) of binary: /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python
+Traceback (most recent call last):
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 46, in main
+    args.func(args)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1066, in launch_command
+    multi_gpu_launcher(args)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/commands/launch.py", line 711, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+src/train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-05-10_13:18:55
+  host      : gpu109-16-l.ibex.kaust.edu.sa
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 1697974)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

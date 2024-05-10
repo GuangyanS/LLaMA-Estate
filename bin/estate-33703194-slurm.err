@@ -1,0 +1,244 @@
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:21:20,544 >> loading file tokenizer.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/tokenizer.json
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:21:20,547 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:21:20,547 >> loading file special_tokens_map.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/special_tokens_map.json
+[INFO|tokenization_utils_base.py:2084] 2024-05-10 13:21:20,549 >> loading file tokenizer_config.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/tokenizer_config.json
+[WARNING|logging.py:314] 2024-05-10 13:21:20,774 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Converting format of dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   4%|▍         | 1000/26622 [00:00<00:02, 9426.93 examples/s]Converting format of dataset (num_proc=16): 100%|██████████| 26622/26622 [00:00<00:00, 94738.00 examples/s]
+Running tokenizer on dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):   4%|▍         | 1000/26622 [00:00<00:04, 5172.71 examples/s]Converting format of dataset (num_proc=16):   4%|▍         | 1000/26622 [00:00<00:05, 4974.39 examples/s]Converting format of dataset (num_proc=16):  28%|██▊       | 7328/26622 [00:00<00:00, 29826.54 examples/s]Converting format of dataset (num_proc=16):  35%|███▌      | 9328/26622 [00:00<00:00, 37483.46 examples/s]Converting format of dataset (num_proc=16):  84%|████████▍ | 22303/26622 [00:00<00:00, 71608.74 examples/s]Converting format of dataset (num_proc=16):  93%|█████████▎| 24632/26622 [00:00<00:00, 78805.74 examples/s]Converting format of dataset (num_proc=16): 100%|██████████| 26622/26622 [00:00<00:00, 52624.67 examples/s]
+Converting format of dataset (num_proc=16): 100%|██████████| 26622/26622 [00:00<00:00, 48270.14 examples/s]
+Running tokenizer on dataset (num_proc=16):   4%|▍         | 1000/26622 [00:05<02:20, 182.83 examples/s]Running tokenizer on dataset (num_proc=16):   8%|▊         | 2000/26622 [00:05<01:02, 396.34 examples/s]Running tokenizer on dataset (num_proc=16):  15%|█▌        | 4000/26622 [00:06<00:22, 1013.23 examples/s]Running tokenizer on dataset (num_proc=16):  23%|██▎       | 6000/26622 [00:06<00:11, 1815.31 examples/s]Running tokenizer on dataset (num_proc=16):  30%|███       | 8000/26622 [00:06<00:08, 2327.15 examples/s]Running tokenizer on dataset (num_proc=16):  45%|████▌     | 12000/26622 [00:06<00:03, 4650.44 examples/s]Running tokenizer on dataset (num_proc=16):  53%|█████▎    | 14000/26622 [00:08<00:04, 2946.62 examples/s]Running tokenizer on dataset (num_proc=16):  59%|█████▉    | 15664/26622 [00:09<00:04, 2540.62 examples/s]Running tokenizer on dataset (num_proc=16):  64%|██████▍   | 16992/26622 [00:09<00:03, 2799.30 examples/s]Running tokenizer on dataset (num_proc=16):  69%|██████▉   | 18320/26622 [00:09<00:02, 3307.83 examples/s]Running tokenizer on dataset (num_proc=16):  74%|███████▍  | 19648/26622 [00:09<00:02, 3229.20 examples/s]Running tokenizer on dataset (num_proc=16):  79%|███████▉  | 20976/26622 [00:10<00:01, 3871.89 examples/s]Running tokenizer on dataset (num_proc=16):  85%|████████▌ | 22640/26622 [00:10<00:00, 5142.07 examples/s]Running tokenizer on dataset (num_proc=16):  90%|█████████ | 23968/26622 [00:10<00:00, 4189.89 examples/s]Running tokenizer on dataset (num_proc=16):  95%|█████████▌| 25295/26622 [00:11<00:00, 3322.26 examples/s]Running tokenizer on dataset (num_proc=16):  98%|█████████▊| 25959/26622 [00:11<00:00, 2441.83 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 26622/26622 [00:13<00:00, 1483.28 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 26622/26622 [00:13<00:00, 2009.59 examples/s]
+[INFO|configuration_utils.py:726] 2024-05-10 13:21:37,761 >> loading configuration file config.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/config.json
+[INFO|configuration_utils.py:789] 2024-05-10 13:21:37,762 >> Model config LlamaConfig {
+  "_name_or_path": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": 128001,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 14336,
+  "max_position_embeddings": 8192,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.39.3",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+Running tokenizer on dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=16):   0%|          | 0/26622 [00:00<?, ? examples/s][INFO|modeling_utils.py:3283] 2024-05-10 13:21:37,896 >> loading weights file model.safetensors from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/model.safetensors.index.json
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Running tokenizer on dataset (num_proc=16):   4%|▍         | 1000/26622 [00:05<02:30, 170.40 examples/s]Running tokenizer on dataset (num_proc=16):   8%|▊         | 2000/26622 [00:06<01:09, 352.09 examples/s]Running tokenizer on dataset (num_proc=16):  11%|█▏        | 3000/26622 [00:07<00:42, 550.56 examples/s]Running tokenizer on dataset (num_proc=16):  19%|█▉        | 5000/26622 [00:07<00:20, 1064.02 examples/s]Running tokenizer on dataset (num_proc=16):   4%|▍         | 1000/26622 [00:07<03:18, 129.07 examples/s]Running tokenizer on dataset (num_proc=16):   8%|▊         | 2000/26622 [00:07<01:21, 302.13 examples/s]Running tokenizer on dataset (num_proc=16):  11%|█▏        | 3000/26622 [00:08<00:51, 460.71 examples/s]Running tokenizer on dataset (num_proc=16):  19%|█▉        | 5000/26622 [00:09<00:25, 863.73 examples/s]Running tokenizer on dataset (num_proc=16):  23%|██▎       | 6000/26622 [00:09<00:17, 1167.28 examples/s]Running tokenizer on dataset (num_proc=16):  21%|██▏       | 5664/26622 [00:10<00:31, 661.49 examples/s] Running tokenizer on dataset (num_proc=16):  25%|██▌       | 6664/26622 [00:10<00:21, 907.27 examples/s]Running tokenizer on dataset (num_proc=16):  26%|██▋       | 7000/26622 [00:10<00:19, 1032.60 examples/s]Running tokenizer on dataset (num_proc=16):  29%|██▉       | 7664/26622 [00:10<00:18, 1041.05 examples/s]Running tokenizer on dataset (num_proc=16):  33%|███▎      | 8664/26622 [00:11<00:12, 1415.81 examples/s]Running tokenizer on dataset (num_proc=16):  35%|███▌      | 9328/26622 [00:11<00:10, 1702.74 examples/s]Running tokenizer on dataset (num_proc=16):  30%|███       | 8000/26622 [00:11<00:14, 1271.26 examples/s]Running tokenizer on dataset (num_proc=16):  39%|███▉      | 10328/26622 [00:11<00:10, 1551.04 examples/s]Running tokenizer on dataset (num_proc=16):  33%|███▎      | 8664/26622 [00:12<00:15, 1137.14 examples/s]Running tokenizer on dataset (num_proc=16):  41%|████▏     | 10992/26622 [00:12<00:08, 1853.55 examples/s]Running tokenizer on dataset (num_proc=16):  49%|████▉     | 12992/26622 [00:12<00:05, 2670.28 examples/s]Running tokenizer on dataset (num_proc=16):  35%|███▌      | 9328/26622 [00:12<00:15, 1113.10 examples/s]Running tokenizer on dataset (num_proc=16):  51%|█████▏    | 13656/26622 [00:12<00:05, 2580.52 examples/s]Running tokenizer on dataset (num_proc=16):  39%|███▉      | 10328/26622 [00:12<00:11, 1453.61 examples/s]Running tokenizer on dataset (num_proc=16):  41%|████▏     | 10992/26622 [00:13<00:09, 1679.52 examples/s]Running tokenizer on dataset (num_proc=16):  44%|████▍     | 11656/26622 [00:13<00:07, 1981.83 examples/s]Running tokenizer on dataset (num_proc=16):  48%|████▊     | 12656/26622 [00:13<00:07, 1843.34 examples/s]Running tokenizer on dataset (num_proc=16):  59%|█████▉    | 15656/26622 [00:14<00:05, 1859.39 examples/s]Running tokenizer on dataset (num_proc=16):  65%|██████▌   | 17320/26622 [00:14<00:03, 2671.93 examples/s]Running tokenizer on dataset (num_proc=16):  68%|██████▊   | 17984/26622 [00:14<00:03, 2790.73 examples/s]Running tokenizer on dataset (num_proc=16):  51%|█████▏    | 13656/26622 [00:14<00:07, 1674.99 examples/s]Running tokenizer on dataset (num_proc=16):  58%|█████▊    | 15319/26622 [00:14<00:04, 2592.88 examples/s]Running tokenizer on dataset (num_proc=16):  60%|██████    | 15983/26622 [00:15<00:04, 2426.10 examples/s]Running tokenizer on dataset (num_proc=16):  70%|███████   | 18648/26622 [00:15<00:04, 1886.86 examples/s]Running tokenizer on dataset (num_proc=16):  64%|██████▍   | 16983/26622 [00:15<00:04, 2100.00 examples/s]Running tokenizer on dataset (num_proc=16):  73%|███████▎  | 19312/26622 [00:15<00:04, 1780.51 examples/s]Running tokenizer on dataset (num_proc=16):  81%|████████▏ | 21639/26622 [00:15<00:01, 3365.03 examples/s]Running tokenizer on dataset (num_proc=16):  66%|██████▋   | 17647/26622 [00:16<00:04, 2110.13 examples/s]Running tokenizer on dataset (num_proc=16):  88%|████████▊ | 23303/26622 [00:16<00:00, 4224.85 examples/s]Running tokenizer on dataset (num_proc=16):  69%|██████▉   | 18311/26622 [00:16<00:03, 2409.98 examples/s]Running tokenizer on dataset (num_proc=16):  73%|███████▎  | 19311/26622 [00:16<00:02, 2801.51 examples/s]Running tokenizer on dataset (num_proc=16):  76%|███████▋  | 20311/26622 [00:16<00:02, 2512.05 examples/s]Running tokenizer on dataset (num_proc=16):  79%|███████▉  | 20974/26622 [00:17<00:02, 2567.71 examples/s]Running tokenizer on dataset (num_proc=16):  93%|█████████▎| 24630/26622 [00:17<00:00, 2135.64 examples/s]Running tokenizer on dataset (num_proc=16):  83%|████████▎ | 21974/26622 [00:17<00:01, 2327.30 examples/s]Running tokenizer on dataset (num_proc=16):  85%|████████▌ | 22638/26622 [00:17<00:01, 2472.36 examples/s]Running tokenizer on dataset (num_proc=16):  95%|█████████▌| 25294/26622 [00:18<00:00, 1950.68 examples/s]Running tokenizer on dataset (num_proc=16):  93%|█████████▎| 24630/26622 [00:19<00:00, 2014.43 examples/s]Running tokenizer on dataset (num_proc=16):  98%|█████████▊| 25958/26622 [00:19<00:00, 1310.16 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 26622/26622 [00:19<00:00, 1423.00 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 26622/26622 [00:19<00:00, 1352.52 examples/s]
+Running tokenizer on dataset (num_proc=16):  95%|█████████▌| 25294/26622 [00:19<00:00, 1708.90 examples/s]Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Running tokenizer on dataset (num_proc=16):  98%|█████████▊| 25958/26622 [00:20<00:00, 1757.65 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 26622/26622 [00:20<00:00, 1376.73 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 26622/26622 [00:20<00:00, 1268.58 examples/s]
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 2/4 [01:38<01:38, 49.27s/it]Downloading shards:  50%|█████     | 2/4 [01:37<01:37, 48.62s/it]Downloading shards:  50%|█████     | 2/4 [01:58<01:58, 59.24s/it]Downloading shards:  75%|███████▌  | 3/4 [03:35<01:17, 77.65s/it]Downloading shards:  75%|███████▌  | 3/4 [03:36<01:18, 78.03s/it]Downloading shards:  75%|███████▌  | 3/4 [03:56<01:23, 83.85s/it]Downloading shards: 100%|██████████| 4/4 [04:03<00:00, 59.18s/it]Downloading shards: 100%|██████████| 4/4 [04:03<00:00, 60.92s/it]
+Downloading shards: 100%|██████████| 4/4 [04:05<00:00, 59.43s/it]Downloading shards: 100%|██████████| 4/4 [04:05<00:00, 61.26s/it]
+Downloading shards: 100%|██████████| 4/4 [04:24<00:00, 63.07s/it]Downloading shards: 100%|██████████| 4/4 [04:24<00:00, 66.24s/it]
+[INFO|modeling_utils.py:1417] 2024-05-10 13:26:02,855 >> Instantiating LlamaForCausalLM model under default dtype torch.float16.
+[INFO|configuration_utils.py:928] 2024-05-10 13:26:02,856 >> Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "eos_token_id": 128001
+}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:10,  3.45s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:11,  3.83s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:11,  3.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:07,  3.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:07,  3.65s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:10<00:03,  3.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:10<00:03,  3.56s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:10<00:03,  3.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.79s/it]
+[INFO|modeling_utils.py:4024] 2024-05-10 13:26:14,247 >> All model checkpoint weights were used when initializing LlamaForCausalLM.
+
+[INFO|modeling_utils.py:4032] 2024-05-10 13:26:14,248 >> All the weights of LlamaForCausalLM were initialized from the model checkpoint at meta-llama/Meta-Llama-3-8B-Instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlamaForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:883] 2024-05-10 13:26:14,439 >> loading configuration file generation_config.json from cache at /ibex/user/wangc0g/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/snapshots/a8977699a3d0820e80129fb3c93c20fbd9972c41/generation_config.json
+[INFO|configuration_utils.py:928] 2024-05-10 13:26:14,440 >> Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "do_sample": true,
+  "eos_token_id": [
+    128001,
+    128009
+  ],
+  "max_length": 4096,
+  "temperature": 0.6,
+  "top_p": 0.9
+}
+
+/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches', 'even_batches', 'use_seedable_sampler']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False, even_batches=True, use_seedable_sampler=True)
+  warnings.warn(
+[INFO|trainer.py:607] 2024-05-10 13:26:14,633 >> Using auto half precision backend
+Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.90s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.89s/it]
+/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches', 'even_batches', 'use_seedable_sampler']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False, even_batches=True, use_seedable_sampler=True)
+  warnings.warn(
+/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches', 'even_batches', 'use_seedable_sampler']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False, even_batches=True, use_seedable_sampler=True)
+  warnings.warn(
+[rank2]:[W CUDAGuardImpl.h:115] Warning: CUDA warning: unknown error (function destroyEvent)
+Traceback (most recent call last):
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/train.py", line 16, in <module>
+    main()
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/train.py", line 6, in main
+    run_exp()
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/llmtuner/train/tuner.py", line 33, in run_exp
+    run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/src/llmtuner/train/sft/workflow.py", line 73, in run_sft
+    train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/transformers/trainer.py", line 1933, in _inner_training_loop
+    model, self.optimizer = self.accelerator.prepare(self.model, self.optimizer)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/accelerator.py", line 1274, in prepare
+    result = tuple(
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/accelerator.py", line 1275, in <genexpr>
+    self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/accelerator.py", line 1151, in _prepare_one
+    return self.prepare_model(obj, device_placement=device_placement)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/accelerate/accelerator.py", line 1403, in prepare_model
+    model = torch.nn.parallel.DistributedDataParallel(
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 800, in __init__
+    _sync_module_states(
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/distributed/utils.py", line 292, in _sync_module_states
+    _sync_params_and_buffers(process_group, module_states, broadcast_bucket_size, src)
+  File "/ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/distributed/utils.py", line 303, in _sync_params_and_buffers
+    dist._broadcast_coalesced(
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+terminate called after throwing an instance of 'c10::Error'
+  what():  CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x145e95a93d87 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x145e95a4475f in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x145e95b648a8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #3: <unknown function> + 0x1d40e (0x145e95b2f40e in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #4: <unknown function> + 0x1f744 (0x145e95b31744 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #5: <unknown function> + 0x1fb6d (0x145e95b31b6d in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #6: <unknown function> + 0x540210 (0x145edfb56210 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x649bf (0x145e95a789bf in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #8: c10::TensorImpl::~TensorImpl() + 0x21b (0x145e95a71c8b in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #9: c10::TensorImpl::~TensorImpl() + 0x9 (0x145e95a71e39 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #10: <unknown function> + 0x802b98 (0x145edfe18b98 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #11: THPVariable_subclass_dealloc(_object*) + 0x2f6 (0x145edfe18f16 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #12: <unknown function> + 0x1310ef (0x557e0ef300ef in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #13: <unknown function> + 0x242778 (0x557e0f041778 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #14: <unknown function> + 0x131156 (0x557e0ef30156 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #15: <unknown function> + 0x153c24 (0x557e0ef52c24 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #16: <unknown function> + 0x1310ef (0x557e0ef300ef in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #17: <unknown function> + 0x242778 (0x557e0f041778 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #18: <unknown function> + 0x131156 (0x557e0ef30156 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #19: <unknown function> + 0x153c24 (0x557e0ef52c24 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #20: <unknown function> + 0x1310ef (0x557e0ef300ef in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #21: <unknown function> + 0x242778 (0x557e0f041778 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #22: <unknown function> + 0x131156 (0x557e0ef30156 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #23: <unknown function> + 0x1a10ef (0x557e0efa00ef in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #24: <unknown function> + 0x127712 (0x557e0ef26712 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #25: <unknown function> + 0x208ffc (0x557e0f007ffc in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #26: <unknown function> + 0x208926 (0x557e0f007926 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #27: Py_FinalizeEx + 0x146 (0x557e0f006936 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #28: Py_RunMain + 0x106 (0x557e0eff9506 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x557e0efca1f7 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+frame #30: <unknown function> + 0x3feb0 (0x145ee186feb0 in /lib64/libc.so.6)
+frame #31: __libc_start_main + 0x80 (0x145ee186ff60 in /lib64/libc.so.6)
+frame #32: <unknown function> + 0x1cb0f1 (0x557e0efca0f1 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/bin/python)
+
+[rank1]:[E ProcessGroupNCCL.cpp:1182] [Rank 1] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x15297418fd87 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x15297414075f in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x1529742608a8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x1529753333ac in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x1529753374c8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x15297533abfa in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x15297533b839 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xdba14 (0x1529bf051a14 in /lib64/libstdc++.so.6)
+frame #8: <unknown function> + 0x9f802 (0x1529bffcb802 in /lib64/libc.so.6)
+frame #9: <unknown function> + 0x3f450 (0x1529bff6b450 in /lib64/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 1] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x15297418fd87 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x15297414075f in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x1529742608a8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x1529753333ac in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x1529753374c8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x15297533abfa in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x15297533b839 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xdba14 (0x1529bf051a14 in /lib64/libstdc++.so.6)
+frame #8: <unknown function> + 0x9f802 (0x1529bffcb802 in /lib64/libc.so.6)
+frame #9: <unknown function> + 0x3f450 (0x1529bff6b450 in /lib64/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x15297418fd87 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x152975091b11 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xdba14 (0x1529bf051a14 in /lib64/libstdc++.so.6)
+frame #3: <unknown function> + 0x9f802 (0x1529bffcb802 in /lib64/libc.so.6)
+frame #4: <unknown function> + 0x3f450 (0x1529bff6b450 in /lib64/libc.so.6)
+
+[rank0]:[E ProcessGroupNCCL.cpp:1182] [Rank 0] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x15282aec0d87 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x15282ae7175f in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x15282af918a8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x15282c0643ac in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x15282c0684c8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x15282c06bbfa in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x15282c06c839 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xdba14 (0x152875d82a14 in /lib64/libstdc++.so.6)
+frame #8: <unknown function> + 0x9f802 (0x152876cfc802 in /lib64/libc.so.6)
+frame #9: <unknown function> + 0x3f450 (0x152876c9c450 in /lib64/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 0] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x15282aec0d87 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x15282ae7175f in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x15282af918a8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x15282c0643ac in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x15282c0684c8 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x15282c06bbfa in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x15282c06c839 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xdba14 (0x152875d82a14 in /lib64/libstdc++.so.6)
+frame #8: <unknown function> + 0x9f802 (0x152876cfc802 in /lib64/libc.so.6)
+frame #9: <unknown function> + 0x3f450 (0x152876c9c450 in /lib64/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x15282aec0d87 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x15282bdc2b11 in /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xdba14 (0x152875d82a14 in /lib64/libstdc++.so.6)
+frame #3: <unknown function> + 0x9f802 (0x152876cfc802 in /lib64/libc.so.6)
+frame #4: <unknown function> + 0x3f450 (0x152876c9c450 in /lib64/libc.so.6)
+
+slurmstepd: error: *** JOB 33703194 ON gpu108-09-r CANCELLED AT 2024-05-10T13:38:08 ***
+slurmstepd: error: *** JOB 33703194 STEPD TERMINATED ON gpu108-09-r AT 2024-05-10T13:43:08 DUE TO JOB NOT ENDING WITH SIGNALS ***
+slurmstepd: error: Container 2435390 in cgroup plugin has 4 processes, giving up after 319 sec

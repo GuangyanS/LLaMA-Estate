@@ -1,0 +1,21 @@
+activation conda
+Environment already exists at /ibex/user/wangc0g/gysun/projs/LLaMA-Estate/env. Activating environment.
+activation env
+[2024-05-10 13:18:41,696] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-05-10 13:18:41,696] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-05-10 13:18:41,696] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+05/10/2024 13:18:43 - WARNING - llmtuner.hparams.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+05/10/2024 13:18:43 - INFO - llmtuner.hparams.parser - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, compute dtype: torch.float16
+05/10/2024 13:18:43 - WARNING - llmtuner.hparams.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+05/10/2024 13:18:43 - WARNING - llmtuner.hparams.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+05/10/2024 13:18:43 - INFO - llmtuner.hparams.parser - Process rank: 2, device: cuda:2, n_gpu: 1, distributed training: True, compute dtype: torch.float16
+05/10/2024 13:18:43 - INFO - llmtuner.hparams.parser - Process rank: 1, device: cuda:1, n_gpu: 1, distributed training: True, compute dtype: torch.float16
+05/10/2024 13:18:45 - INFO - llmtuner.data.template - Add pad token: <|eot_id|>
+05/10/2024 13:18:45 - INFO - llmtuner.data.template - Add pad token: <|eot_id|>
+05/10/2024 13:18:45 - INFO - llmtuner.data.loader - Loading dataset modified_parsed_data_06032024.json...
+05/10/2024 13:18:45 - WARNING - llmtuner.data.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+05/10/2024 13:18:46 - INFO - llmtuner.data.template - Add pad token: <|eot_id|>
+05/10/2024 13:18:48 - INFO - llmtuner.data.loader - Loading dataset modified_parsed_data_06032024.json...
+05/10/2024 13:18:48 - INFO - llmtuner.data.loader - Loading dataset modified_parsed_data_06032024.json...
+05/10/2024 13:18:48 - WARNING - llmtuner.data.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+05/10/2024 13:18:48 - WARNING - llmtuner.data.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
