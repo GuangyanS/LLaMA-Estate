@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --nodes=1 
 #SBATCH --time=0:10:00
-#SBATCH --gres=gpu:2
+#SBATCH --gres=gpu:3
 #SBATCH --constraint=a100
 #SBATCH --ntasks=4
 #SBATCH --tasks-per-node=4
@@ -15,14 +15,27 @@
 set -e
 
 # create the conda environment
-PROJECT_DIR=/ibex/user/wangc0g/gysun/projs/LLaMA-Estate
+PROJECT_DIR=/ibex/user/${USER}/gysun/projs/LLaMA-Estate
 # source conda env
 source /ibex/user/${USER}/mambaforge/bin/activate
 echo "activation conda"
 
 ENV_PREFIX="$PROJECT_DIR"/env
-mamba env create --prefix $ENV_PREFIX --file "$PROJECT_DIR"/environment.yml
-conda activate llama
+
+# Check if the environment already exists
+if conda env list | grep -q "$ENV_PREFIX"; then
+    echo "Environment already exists at ${ENV_PREFIX}. Activating environment."
+else
+    echo "Creating a new environment at ${ENV_PREFIX}."
+    mamba env create --prefix "$ENV_PREFIX" --file "${PROJECT_DIR}/environment.yml"
+    if [[ $? -ne 0 ]]; then
+        echo "Failed to create environment. Exiting."
+        exit 1
+    fi
+    echo "Environment created."
+fi
+
+conda activate "$ENV_PREFIX"
 echo "activation env"
 
 cd "$PROJECT_DIR"
