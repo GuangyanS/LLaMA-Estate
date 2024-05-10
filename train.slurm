@@ -41,5 +41,5 @@ echo "activation env"
 cd "$PROJECT_DIR"
 
 export WANDB_API_KEY='ee181b943a37dc1d4de0ed8aac14a15db109d7cb'
-export HF_TOKEN='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
+export HF_TOKEN='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'
 sh local_train.sh
