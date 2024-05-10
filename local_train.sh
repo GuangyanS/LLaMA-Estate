@@ -5,13 +5,13 @@ CUDA_VISIBLE_DEVICES=0,1,2 accelerate launch \
     src/train.py \
     --stage sft \
     --do_train \
-    --model_name_or_path NousResearch/Llama-2-7b-hf \
+    --model_name_or_path meta-llama/Meta-Llama-3-8B-Instruct \
     --dataset parsed_train_06032024 \
     --dataset_dir ../../datasets/estate \
     --template default \
     --finetuning_type lora \
     --lora_target q_proj,v_proj \
-    --output_dir saves/LLaMA2-7B/lora/sft \
+    --output_dir saves/LLaMA3-8B/lora/sft \
     --overwrite_cache \
     --overwrite_output_dir \
     --cutoff_len 8192 \
@@ -28,4 +28,4 @@ CUDA_VISIBLE_DEVICES=0,1,2 accelerate launch \
     --plot_loss \
     --fp16 \
     --report_to wandb \
-    --run_name 'Llama2-7b-hf-parsed_train_06032024'
+    --run_name 'Llama3-8b-Ins-parsed_train_06032024'
